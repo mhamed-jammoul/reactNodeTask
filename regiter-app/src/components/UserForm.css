@@ -1,0 +1,41 @@
+/* src/components/UserForm.css */
+.user-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 1em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.user-form h2 {
+  margin-bottom: 1em;
+}
+
+.form-group {
+  margin-bottom: 1em;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 4px;
+  background-color: #32c441;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #32c441;
+}
